@@ -1,196 +1,205 @@
-*{
-    font-family: 'Bebas Neue', cursive;
+html, body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
-p {
-    font-family: 'Josefin Sans', sans-serif;
+p{
+    margin: 0;
+    padding: 0;
 }
-.container {
-    max-width:1600px;
+.container{
+    max-width: 1620px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
-.inner {
+.row{
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-    .images{
-        margin-left: 470px;
-    }
-    .images a{
-        margin-left: 40px;
-        text-decoration: none;
-    }
-    .navigation a{
-        text-decoration: none;
-        color:#222222;
-        margin-right: 50px;
-    }
+}
+.navigation{
+    display: flex;
+}
+.icon a{
+    margin-right: 26px;
+    padding: 42px 0;
+}
+.nav a{
+    margin-left: 54px;
+    padding: 41px 0;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #222222;
+}
 
-    .inner_2{
-        padding-top: 50px;
-        background-color: #F8F8F8;
-    }
-    .inner_2 h1 {
-        font-family: Bebas Neue;
-        font-size: 60px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .inner_2 span {
-        color:#C4C4C4;
-    }
-
-    .inner_3 {
-        margin-top: 70px;   
-        width: 1920px;
-        min-height: 837.6px;
-        background: url(../img/image.png) no-repeat;
-        background-size: cover;
-    }
-    .inner_4 {
-        background: #F8F8F8;
-    }
-
-    .inner4_1 h4{
-        margin-left: 100px;
-        
-
-        font-family: Bebas Neue;
-        font-size: 75px;
-        line-height: 75px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-
-        color: #222222;
-
-    }
-    .inner_p {
-        margin-left:100px;
-        margin-top: 0;
-        padding-top: 50px;
-        color: #C3AA5B;
-
-        font-family: Bebas Neue;
-        font-size: 50px;
-        line-height: 50px;
-        display: flex;
-        align-items: center;
-        text-transform: capitalize;
-    }
-    .inner4_2 {
-        margin-left: 300px;
-        width: 1070px;
-
-        font-family: Josefin Sans;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .inner4_3 button {
-        margin-left: 300px;
-        margin-top: 50px;
-        font-family: Josefin Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 14px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #222222;
-        padding: 20px 70px;
-    }
-
-    .inner5_1 {
-        text-transform: uppercase;
-        text-align: center;
-        font-family: Bebas Neue;
-        font-size: 60px;
-        line-height: 60px;
-    }
-    .inner5_2{
-        display: flex;
-        justify-content: space-between;
-    }
-    .inner5_2_1 span {
-        margin-left: 100px;
-        margin-top: 70px;
-        font-family: Bebas Neue;
-        font-size: 30px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-transform: capitalize;
-
-        color: #C3AA5B;
-    }
-    .inner5_2_2 span {
-        margin-left: 40px;
-        margin-top: 70px;
-        font-family: Bebas Neue;
-        font-size: 30px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-transform: capitalize;
-
-        color: #C3AA5B;
-    }
-    .inner5_2_1 h6 {
-        margin: 0;
-        margin-top: 80px;
-        font-family: Bebas Neue;
-        font-size: 36px;
-        line-height: 36px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #222222;
-    }
-    .inner5_2_1 p {
-        font-family: Josefin Sans;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 30px;
-        color: #222222;
-    }
-    .flex {
-        display: flex;
-        justify-content: space-between;
-    }
-    .flex2 {
-        margin-left: 100px;
-    }
-    .inner5_2_2 h6 {
-        margin: 0;
-        margin-top: 80px;
-        font-family: Bebas Neue;
-        font-size: 36px;
-        line-height: 36px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #222222;
-    }
-    .inner5_2_2 p {
-        font-family: Josefin Sans;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 30px;
-        color: #222222;
-    }
-    .flex1{
-        margin-left: 60px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .flex3 {
-        margin-left: 100px;
-    }
+.content {
+    height: 260px;
+    background-color: #F8F8F8;
+    margin-bottom: 118px;
+}
+.blog{
+    padding-top: 92px;
+    text-align: center;
+}
+.blog p{
+    margin: 0;
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.02em;
+    font-size: 60px;
+    color: #222222;
+}
+.home_blog{
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+.home{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+.border{
+    margin: 0 8px;
+    height: 1px;
+    width: 17px;
+    background-color: #222222;
+}
+.blog_1{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+.number{
+    padding-top: 88px;
+    margin-left: 288px;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #C3AA5B;
+}
+.title{
+    margin-top: 44px;
+    margin-left: 288px;
+    font-family: 'Bebas Neue';
+    font-size: 75px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #222222;
+}
+.trends{
+    height: 1270px;
+    background: #F8F8F8;
+}
+.trends__content{
+    margin: 0 425px;
+    width: 1070px;
+    margin-top: 44px;
+}
+.trends__text{
+    margin-bottom: 30px;
+    text-indent: 12px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+.button{
+    margin-top: 67px;
+    margin-left: 425px;
+    width: 193px;
+    height: 50px;
+    border: 0.8px solid #222222;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+}
+.news p{
+    padding-top: 108px;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #222222;
+}
+.news_content{
+    display: flex;
+    justify-content: space-between;
+}
+.paris{
+    max-width: 795px;
+    width: 100%;
+}
+.images{
+    padding-left: 8px;
+    margin-top: 90px;
+}
+.paris_content{
+    display: flex;
+    justify-content: flex-end;
+}
+.content_number{
+    margin-right: 70px;
+    margin-top: 74px;
+    margin-left: 148px;
+}
+.content__text{
+    margin-top: 74px;
+}
+.paris_number{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #C3AA5B;
+}
+.paris_title{
+    width: 520px;
+    font-family: Bebas Neue;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #222222;
+}
+.paris_text{
+    padding-top: 20px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
